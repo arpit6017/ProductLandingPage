@@ -1,0 +1,330 @@
+*{
+   padding: 0;
+   margin: 0;
+   
+}
+.header{
+   position: fixed;
+   z-index: 100;
+   width: 100%;
+   top: 0;
+   left: 0;
+}
+.mainheader{
+   
+   
+   background-color: rgb(21, 21, 21);
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 3.5rem;
+   padding-right: 3.4rem;
+   padding-top: 1.2rem;
+   padding-bottom: 1.2rem;
+}
+.headerContent{
+   display: flex;
+   gap: 2.2rem;
+   justify-content: center;
+   align-items: center;
+}
+.headerContent a{
+   text-decoration: none;
+   color: white;
+}
+.subheader{
+   display: flex;
+   justify-content: space-between;
+   padding-left: 3.1rem;
+   padding-right: 3.1rem;
+   height: 59px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   
+   background-color: rgb(60, 59, 59);
+   color: white;
+}
+.subheader h3{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.subheader h2{
+   background-color: white;
+   color: rgb(81, 80, 80);
+   margin-left: 221px;
+   width: 191px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.subheader h4{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   font-size: 2.1rem;
+   color: white;
+   border: solid black 2px;
+   border-radius: 90%;
+}
+.subheader h4:hover{
+   transform: scale(1.2);
+   background-color: rgb(50, 50, 223);
+}
+
+.refrence{
+   height: 57px;
+   border-bottom:ridge  2.4px;
+   border-top: ridge  2.4px;
+   background-color: white;
+   display: flex;
+   padding-left: 3rem;
+   /* justify-content: center; */
+   align-items: center;
+   gap: 3rem;
+   
+}
+.refrence a{
+   text-decoration: none;
+   color: rgb(27, 26, 26);
+}
+#main{
+   
+   display: flex;
+   flex-direction: row;
+   gap: 5rem;
+   padding-top: 15rem;
+}
+.container{
+   
+   display: flex;
+   flex-direction: row;
+   gap: 4rem;
+}
+.left{
+   padding-left: 4rem;
+}
+.left h2{
+   font-size: 2.7rem;
+}
+.left span{
+   font-size: 2rem;
+   color: rgb(112, 111, 111);
+}
+.leftcontent{
+   margin-top: 4rem;
+   
+}
+.tax{
+   color: rgb(77, 77, 77);
+   padding-top: 1.7rem;
+   padding-bottom: 11px;
+}
+.installment{
+   gap: 3px;
+   
+}
+.installment p{
+   color: rgb(74, 74, 74);
+}
+.installment a{
+   text-decoration: none;
+   color: black;
+   
+}
+.right img{
+   
+   
+   /* height: 600px; */
+   
+   /* mix-blend-mode: color-burn; */
+}
+.rightcontainer h4{
+   font-size: 2rem;
+   color: rgb(60, 60, 60);
+}
+.buy{
+   margin: 5rem;
+   width: 11rem;
+   height: 3rem;
+   font-size: 2rem;
+   background-color: rgba(60, 60, 226, 0.865);
+   color: white;
+   border-radius: 2px;
+}
+.buy:hover{
+   transform: scale(1.11);
+}
+.first{
+   padding-top: 27px;
+   font-size: 17px;
+}
+
+.second{
+   padding-top: 11px;
+   padding-bottom: 11px;
+   font-size: 17px;
+
+}
+.third{
+   padding-top: 11px;
+   font-size: 17px;
+}
+
+.offer{
+   color: rgb(35, 35, 238);
+   font-size: 17px;
+}
+.about{
+   margin-top: 1.4rem;
+   padding-top: 2.1rem;
+   padding-bottom: 1.2rem;
+   padding-left: 15rem;
+   background-color: rgb(214, 212, 212);
+   margin-bottom: 21px;
+}
+.about h5{
+   font-size: 27px;
+   color: rgb(48, 48, 48);
+   padding-bottom: 1.4rem;
+}
+.desc{
+  padding-top: 5px;
+  
+}
+.checked{
+   color: orange;
+}
+.review{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 2rem;
+   margin-left: 111px;
+   margin-right: 141px;
+   margin-bottom: 1.7rem;
+}
+.leftreview h4{
+   font-size: 2rem;
+   color: rgb(53, 53, 53);
+   margin-bottom: 61px;
+
+}
+.leftreview p{
+   margin-bottom: 31px;
+   font-size: 27px;
+   
+}
+.rating{
+   display: flex;
+   flex-direction: row;
+   align-items: first baseline;
+}
+.rating h2{
+   font-size: 8rem;
+}
+.rating p{
+   margin-left: 19px;
+   font-size: 5.7rem;
+}
+
+
+.rightreviewcontent{
+   padding: 1.4rem;
+   border: ridge rgb(58, 58, 58) 1px;
+   border-radius: 4px;
+}
+.text{
+   font-size: 1.5rem;
+}
+.reviewheader{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   flex-direction: row;
+   padding-bottom: 1.4rem;
+   
+}
+.star {
+   padding-right: 61px;
+}
+.rightreviewcontent h3{
+   padding-bottom: 21px;
+}
+.rightreviewcontent p{
+   padding-bottom: 21px;
+   font-size: 1.2rem;
+}
+.rightreviewbottom{
+   padding: 2rem;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   /* justify-content: center; */
+
+}
+.rightreviewbottom h5{
+   padding-left: 21px;
+   font-size: 1.4rem;
+
+}
+.rightreviewbottom p{
+   font-size: 1.8rem;
+   padding: 2px;
+   
+   border: solid black 2px;
+   border-radius: 70%;
+   background-color: rgb(61, 61, 61);
+   color: white;
+   
+}
+.rightreviewbottom p:hover{
+   transform: scale(1.2);
+}
+#inthebox{
+   display: flex;
+   flex-direction: row;
+}
+
+.intheboxleftpart{
+   margin-top: 65px;
+   margin-bottom: 1.1rem;
+
+}
+.intheboxleftpart h2{
+   margin-left: 81px;
+   font-size: 2.4rem;
+
+}
+.intheboxleftpart img{
+   margin-left: 211px;
+   margin-top: 29px;
+   height: 285px;
+}
+.intheboxleftpart h3{
+   margin-left: 8.2rem;
+   margin-top: 1.1rem;
+
+}
+.intheboxrightpart{
+   margin-top: 111px;
+   display: flex;
+   flex-direction: row;
+   border: solid rgb(117, 116, 116) 1px;
+   height: 105px;
+   width: 291px;
+   padding: 7px;
+
+}
+.intheboxrightpart p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.3rem;
+   padding: 2.4rem;
+
+}
+
+
